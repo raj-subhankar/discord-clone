@@ -22,15 +22,14 @@ function ChatHeader({ channelName }) {
                 <EditLocationRoundedIcon />
                 <PeopleAltRoundedIcon />
 
-            </div>
+                <div className="chatHeader__search">
+                    <input placeholder="Search" />
+                    <SearchRoundedIcon />
+                </div>
 
-            <div className="chatHeader__search">
-                <input placeholder="Search" />
-                <SearchRoundedIcon />
+                <SendRoundedIcon />
+                <HelpRoundedIcon />
             </div>
-
-            <SendRoundedIcon />
-            <HelpRoundedIcon />
 
         </div>
     )
